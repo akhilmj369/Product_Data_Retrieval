@@ -15,7 +15,7 @@ const shopify = new Shopify({
 app.use(cors());
 
 app.get('/',(req, res) =>{
-    res.send(`<h1>Our app is running...</h1>`)
+    res.send(`<h1>App is running...</h1>`)
 })
 
 
