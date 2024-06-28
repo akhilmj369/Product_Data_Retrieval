@@ -1,0 +1,40 @@
+.container {
+    margin: 0 auto;
+    padding: 2rem;
+    overflow-x: hidden;
+}
+
+.header {
+    font-size: 2rem; 
+    text-align: center; 
+    font-weight: bold; 
+    margin-bottom: 1rem; 
+}
+
+.table-container {
+    overflow-x: auto;
+}
+
+.table-auto {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: auto; 
+}
+
+.table-auto th, .table-auto td {
+    padding: 0.5rem 1rem; 
+    border: 1px solid #ddd;
+    word-wrap: break-word; 
+    text-align: center; 
+    vertical-align: middle; 
+}
+
+.table-auto th {
+    background-color: #f1f1f1; 
+    color: #4a5568; 
+}
+
+.table-auto td {
+    border: 1px solid #ddd;
+    padding: 0.5rem 1rem;
+}
